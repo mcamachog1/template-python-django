@@ -7,7 +7,7 @@ tasks:
       python manage.py makemigrations
       python manage.py migrate
   - command: |
-      python manage.py runserver
+      source venv/bin/activate
   
 ports:
   - port: 8000
