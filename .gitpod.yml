@@ -6,6 +6,7 @@ tasks:
       pip install Django
       python manage.py makemigrations
       python manage.py migrate
+  
   - command: |
       source venv/bin/activate
   
